@@ -11,7 +11,7 @@ For those of you working with Azure today, you may already be aware that one of 
 
 #### What's wrong with ARM?
 Unfortunately, ARM templates have some limitations caused by the fact that they must be authored in a verbose JSON dialect:
-* They provide very limited type checking and support, which makes creating discovery and creation of template features difficult.
+* They provide very limited type checking and support, which makes discovery and creation of template features difficult.
 * Templates need a lot of boilerplate to be created for even relatively simple and common resources.
 * It requires "embedded", difficult-to-maintain stringly-typed code in order to achieve what might be trivial in a "proper" programming language, such as references, variables and parameters - or writing elements such as loops.
 * The documentation for ARM templates is not always kept up-to-date, so understanding and learning how to properly use them can involve a lot of searching and trial-and-error.
